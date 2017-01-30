@@ -6,7 +6,7 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: #0081FF;
 }
 
 /* Custom default button */
@@ -15,8 +15,7 @@ a:hover {
 .btn-default:focus {
   color: #333;
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
-  border: 1px solid #fff;
+  background-color: #0081FF;
 }
 
 
@@ -27,13 +26,13 @@ a:hover {
 html,
 body {
   height: 100%;
-  /*
-  background: url('file:///C:/Users/X/Desktop/Dichte/img/gemischt/BG_test_3.jpg') no-repeat center center fixed;
+  background: url('file:///C:/Users/X/Desktop/Dichte/img/gemischt/cork_kl.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-  */
+ /* Background pattern from subtlepatterns.com */
+  /*
   background:
   radial-gradient(black 15%, transparent 16%) 0 0,
   radial-gradient(black 15%, transparent 16%) 8px 8px,
@@ -41,13 +40,14 @@ body {
   radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
   background-color:#282828;
   background-size:16px 16px;
-
+  */
 }
 
 body {
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.3);
-  color: #fff;
+  text-shadow: 0 1px 3px rgba(0,0,0,.2);
+  color: #0081FF;
+  background-blend-mode: darken;
 }
 
 li, p {
@@ -64,8 +64,8 @@ h1 {
   width: 100%;
   height: 100%; /* For at least Firefox */
   min-height: 100%;
-  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-  box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.2);
+  box-shadow: inset 0 0 100px rgba(0,0,0,.2);
 }
 .site-wrapper-inner {
   display: table-cell;
@@ -92,7 +92,7 @@ span.glyphicon {
 }
 
 a:hover > .glyphicon  {
-  color: #3DFAFF;
+  color: #FF9F00;
 }
 
 .masthead-brand {
@@ -111,7 +111,7 @@ a:hover > .glyphicon  {
   padding-left: 0;
   font-size: 24px;
   font-weight: normal;
-  color: #fff; /* IE8 proofing */
+  color: #0081FF; /* IE8 proofing */
   color: rgba(255,255,255,.75);
   border-bottom: 2px solid transparent;
 }
@@ -124,8 +124,8 @@ a:hover > .glyphicon  {
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-  color: #fff;
-  border-bottom-color: #fff;
+  color: #0081FF;
+  border-bottom-color: #0081FF;
 }
 
 @media (min-width: 768px) {
@@ -151,32 +151,37 @@ a:hover > .glyphicon  {
   font-size: 22pt;
   background-color: transparent;
   border-color: transparent;
-  border-bottom-color: #E97C38;
-  border-top-color: #E97C38;
+  border-bottom-color: #transparent;
+  border-top-color: #transparent;
   border-radius: 0px;
 }
 
 .btn {
-  padding: 8px 16px 10px 16px;
-  border: solid 4px;
+  color: #0081FF;
+}
+
+.btn-info {
+  background-color: transparent;
 }
 
 .lead {
-  color: #fff;
+  color: #0081FF;
   font-size: 28pt;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .cover-heading {
-  color: #E97C38;
   font-size: 60px;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  mix-blend-mode: difference;
+  color: #005AB2;
 }
 
 a {
-  color: #3DFAFF;
+  color: #0081FF;
   font-size: 28pt;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+img {
+  height: 120px;
 }
 
 /*
