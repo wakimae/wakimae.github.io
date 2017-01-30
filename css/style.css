@@ -26,7 +26,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background: url('file:///C:/Users/X/Desktop/Dichte/img/gemischt/cork_kl.png') no-repeat center center fixed;
+  background: url('../img/gemischt/cork_kl.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
