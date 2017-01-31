@@ -1,25 +1,4 @@
 /*
- * Globals
- */
-
-/* Links */
-a,
-a:focus,
-a:hover {
-  color: #0081FF;
-}
-
-/* Custom default button */
-.btn-default,
-.btn-default:hover,
-.btn-default:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #0081FF;
-}
-
-
-/*
  * Base structure
  */
 
@@ -111,8 +90,7 @@ a:hover > .glyphicon  {
   padding-left: 0;
   font-size: 24px;
   font-weight: normal;
-  color: #0081FF; /* IE8 proofing */
-  color: rgba(255,255,255,.75);
+  color: #198EFF; /* IE8 proofing */
   border-bottom: 2px solid transparent;
 }
 .masthead-nav > li > a:hover,
