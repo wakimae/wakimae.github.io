@@ -5,7 +5,7 @@
 html,
 body {
   height: 100%;
-  background: url('../img/gemischt/cork_kl.png') no-repeat center center fixed;
+  background: url('../img/gemischt/seamless.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -25,7 +25,7 @@ body {
 body {
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.2);
-  color: #0081FF;
+  color: #474747;
   background-blend-mode: darken;
 }
 
@@ -90,7 +90,7 @@ a:hover > .glyphicon  {
   padding-left: 0;
   font-size: 24px;
   font-weight: normal;
-  color: #198EFF; /* IE8 proofing */
+  color: #474747; /* IE8 proofing */
   border-bottom: 2px solid transparent;
 }
 .masthead-nav > li > a:hover,
@@ -102,8 +102,8 @@ a:hover > .glyphicon  {
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-  color: #0081FF;
-  border-bottom-color: #0081FF;
+  color: #474747;
+  border-bottom-color: #171717;
 }
 
 @media (min-width: 768px) {
@@ -148,9 +148,9 @@ a:hover > .glyphicon  {
 }
 
 .cover-heading {
-  font-size: 60px;
-  mix-blend-mode: difference;
-  color: #005AB2;
+  font-size: 107px;
+  mix-blend-mode: overlay;
+  color: black;
 }
 
 a {
@@ -160,6 +160,10 @@ a {
 
 img {
   height: 120px;
+}
+
+h3 {
+  font-family: 'Oxygen Mono', monospace;
 }
 
 /*
