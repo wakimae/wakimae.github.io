@@ -5,35 +5,24 @@
 html,
 body {
   height: 100%;
-  background: url('../img/gemischt/seamless.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
- /* Background pattern from subtlepatterns.com */
-  /*
-  background:
-  radial-gradient(black 15%, transparent 16%) 0 0,
-  radial-gradient(black 15%, transparent 16%) 8px 8px,
-  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
-  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
-  background-color:#282828;
-  background-size:16px 16px;
-  */
+  background: url(../img/gemischt/Background2.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 body {
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.2);
   color: #474747;
-  background-blend-mode: darken;
 }
 
-li, p {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+p, span {
+  font-family: 'Anton', sans-serif;
 } 
 
-h1 {
+h1, li {
   font-family: 'Anton', sans-serif;
 }
 
@@ -88,10 +77,11 @@ a:hover > .glyphicon  {
 .masthead-nav > li > a {
   padding-right: 0;
   padding-left: 0;
-  font-size: 24px;
+  font-size: 21px;
   font-weight: normal;
   color: #474747; /* IE8 proofing */
-  border-bottom: 2px solid transparent;
+  border-bottom: 5px dotted transparent;
+  opacity: 0.725;
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
@@ -135,35 +125,29 @@ a:hover > .glyphicon  {
 }
 
 .btn {
-  color: #0081FF;
+  color: #1059B2;
 }
 
 .btn-info {
-  background-color: transparent;
+  background-color: #1059B2;
+}
+
+.btn-info:hover {
+  color: #1059B2;
 }
 
 .lead {
-  color: #0081FF;
+  color: #1059B2;
   font-size: 28pt;
 }
 
-.cover-heading {
-  font-size: 107px;
-  mix-blend-mode: overlay;
-  color: black;
-}
-
 a {
-  color: #0081FF;
+  color: #1059B2;
   font-size: 28pt;
 }
 
 img {
   height: 120px;
-}
-
-h3 {
-  font-family: 'Oxygen Mono', monospace;
 }
 
 /*
@@ -173,6 +157,12 @@ h3 {
 .mastfoot {
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
+}
+
+#foot {
+  font-size: 21px;
+  color: #333;
+  opacity: 0.4;
 }
 
 /*
