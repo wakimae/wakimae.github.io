@@ -4,12 +4,15 @@
 
 html,
 body {
+  background-color: #fff;
   height: 100%;
+  /*
   background: url(../img/gemischt/Background2.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  */
 }
 
 body {
@@ -18,12 +21,8 @@ body {
   color: #474747;
 }
 
-p, span {
-  font-family: 'Anton', sans-serif;
-} 
-
-h1, li {
-  font-family: 'Anton', sans-serif;
+h1, h4, li, p, span {
+  font-family: 'Oswald', sans-serif;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -40,6 +39,7 @@ h1, li {
   vertical-align: top;
 }
 .cover-container {
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
 }
@@ -54,13 +54,8 @@ h1, li {
  * Header
  */
 
-span.glyphicon {
-  font-size: 0.8em;
-  margin-right: 5px;
-}
-
-a:hover > .glyphicon  {
-  color: #FF9F00;
+#sub {
+  color: #c7105c;
 }
 
 .masthead-brand {
@@ -79,15 +74,17 @@ a:hover > .glyphicon  {
   padding-left: 0;
   font-size: 21px;
   font-weight: normal;
-  color: #474747; /* IE8 proofing */
-  border-bottom: 5px dotted transparent;
+  color: #474747;
+  border-bottom: 3px dotted transparent;
   opacity: 0.725;
+  padding-top: 0;
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
   border-bottom-color: #a9a9a9;
   border-bottom-color: rgba(255,255,255,.25);
+  color: #c7105c;
 }
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
@@ -115,39 +112,23 @@ a:hover > .glyphicon  {
   background-size: contain;
 }
 
-.cover .btn-lg {
-  font-size: 22pt;
-  background-color: transparent;
-  border-color: transparent;
-  border-bottom-color: #transparent;
-  border-top-color: #transparent;
-  border-radius: 0px;
-}
-
-.btn {
-  color: #1059B2;
-}
-
-.btn-info {
-  background-color: #1059B2;
-}
-
-.btn-info:hover {
-  color: #1059B2;
-}
-
-.lead {
-  color: #1059B2;
-  font-size: 28pt;
-}
-
 a {
-  color: #1059B2;
-  font-size: 28pt;
+  color: #333;
+  font-size: 24pt;
+}
+
+a:hover {
+  color: #c7105c;
+  text-decoration: none;
 }
 
 img {
   height: 120px;
+}
+
+#logo {
+  width: 550px;
+  height: auto;
 }
 
 /*
