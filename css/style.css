@@ -4,20 +4,17 @@
 
 html,
 body {
-  background-color: #fff;
   height: 100%;
-  /*
-  background: url(../img/gemischt/Background2.png) no-repeat center center fixed;
+  background: url(../img/gemischt/seamless.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  */
 }
 
 body {
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.2);
+  text-shadow: 0 1px 0px rgba(0,0,0,.2);
   color: #474747;
 }
 
@@ -58,41 +55,6 @@ h1, h4, li, p, span {
   color: #c7105c;
 }
 
-.masthead-brand {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.masthead-nav > li {
-  display: inline-block;
-}
-.masthead-nav > li + li {
-  margin-left: 20px;
-}
-.masthead-nav > li > a {
-  padding-right: 0;
-  padding-left: 0;
-  font-size: 21px;
-  font-weight: normal;
-  color: #474747;
-  border-bottom: 3px dotted transparent;
-  opacity: 0.725;
-  padding-top: 0;
-}
-.masthead-nav > li > a:hover,
-.masthead-nav > li > a:focus {
-  background-color: transparent;
-  border-bottom-color: #a9a9a9;
-  border-bottom-color: rgba(255,255,255,.25);
-  color: #c7105c;
-}
-.masthead-nav > .active > a,
-.masthead-nav > .active > a:hover,
-.masthead-nav > .active > a:focus {
-  color: #474747;
-  border-bottom-color: #171717;
-}
-
 @media (min-width: 768px) {
   .masthead-brand {
     float: left;
@@ -107,14 +69,9 @@ h1, h4, li, p, span {
  * Cover
  */
 
-.cover {
-  padding: 0 20px;
-  background-size: contain;
-}
-
 a {
   color: #333;
-  font-size: 24pt;
+  font-size: 14pt;
 }
 
 a:hover {
@@ -126,9 +83,8 @@ img {
   height: 120px;
 }
 
-#logo {
-  width: 550px;
-  height: auto;
+#glossar {
+  font-size: 14pt;
 }
 
 /*
