@@ -14,12 +14,17 @@ body {
 
 body {
   text-align: center;
-  text-shadow: 0 1px 0px rgba(0,0,0,.2);
   color: #474747;
 }
 
-h1, h4, li, p, span {
+h1, h4, li, span {
   font-family: 'Oswald', sans-serif;
+  text-shadow: 0 1px 3px rgba(0,0,0,.2);
+}
+  
+p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 12pt;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
