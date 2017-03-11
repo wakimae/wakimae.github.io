@@ -8,11 +8,6 @@ html, body {
   height: 100%;
 }
 
-.vertical-center-row {
-  display: inline-flex;
-  vertical-align: middle;
-}
-
 body {
   text-align: center;
   color: #474747;
@@ -30,6 +25,10 @@ p {
 #logonav {
   height: 40px;
   margin: -10px;
+}
+
+.nav1 {
+  font-size: 26pt;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
