@@ -29,7 +29,7 @@ p {
 
 .nav1 {
   font-size: 26pt;
-  color: rgba(0,0,0,.65);
+  color: rgba(0,0,0,.2);
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -118,12 +118,11 @@ active:hover {
 
 .mastfoot {
   color: #333;
-  opacity: 0.6;
+  opacity: 0.4;
 }
 
 .footer1 {
   font-family: 'Open Sans', sans-serif;
-  background-color: #eeeeee;
 }
 
 /*
