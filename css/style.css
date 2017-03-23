@@ -3,7 +3,7 @@
  */
 
 html, body {
-  background-image: url(../img/gemischt/dots.png);
+  background-image: url(../img/gemischt/dot.svg);
   background-repeat: repeat;
   height: 100%;
 }
@@ -29,7 +29,7 @@ p {
 
 .nav1 {
   font-size: 26pt;
-  color: rgba(0,0,0,.65);
+  color: rgba(0,0,0,.3;)
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
