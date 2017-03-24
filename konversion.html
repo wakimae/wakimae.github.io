@@ -8,7 +8,7 @@
 
     <link rel="apple-touch-icon" sizes="180x180" href="../fav/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="./fav/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="../fav/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="./fav/favicon-16x16.png" sizes="16x16">
     <link rel="manifest" href="./fav/manifest.json">
     <link rel="mask-icon" href="./Dichte/fav/safari-pinned-tab.svg">
     <meta name="theme-color" content="#ffffff">
@@ -16,10 +16,15 @@
     <title>Termine</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!--
     <link href="./css/style.css" rel="stylesheet">
+    -->
+    <link href="./css/carousel.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <script language="javascript" type="text/javascript" src="./js/carousel.js"></script>
   </head>
 
   <body id="termine">
@@ -47,24 +52,47 @@
       </div>
     </nav>
 
-    <!-- Content -->
-    <div class="site-wrapper" id="wrapperhome">
-      <div class="site-wrapper-inner">
-        <div class="cover-container">
+    <!-- Inspired by http://codepen.io/transportedman/pen/NPWRGq -->
 
-          <div class="inner cover text-left">
-            <div class="text">
-              <p>Ein Kernproblem der Wohnungsfrage in Großstädten ist die Mobilisierung von Grundstücken in zentralen Lagen. In Berlin verfolgt man u.a. die Strategie, nicht mehr benötigte Friedhöfe in Flächen für den Wohnungsbau umzuwandeln. In diesem Rahmen wurde bereits 2006 ein Friedhofsentwicklungsplan (FEP) von der Stadt Berlin aufgestellt. Betrachtet werden darin ca. 1176 ha Friedhofsfläche, die sich auf 224 Friedhöfe verteilen. Historisch betrachtet ist die Friedhofslandschaft in Berlin einzigartig. Durch das rasche Wachstum der Stadt und den damit verbundenen Eingemeindungen, kamen immer wieder kleinere Friedhofsflächen zum Stadtgebiet hinzu.</p> 
+      <div class="carousel slide carousel-fade" data-ride="carousel">
 
-              <p>Kerninhalt und Ziel des FEP ist eine auf dem Bestattungsverhalten basierende Erfassung derzeitig und langfristig nicht mehr genutzter Friedhofsflächen. Ergebnis der Untersuchungen ist eine deutliche Veränderung in Zahl und Art der Bestattungen. Von 1970 bis 2003 ist in Berlin die Zahl der Sterbefälle um ca. 40% gesunken. Aufgrund der Entwicklung von der klassischen Erdbestattung, hinzu Urnengemeinschaftsanlagen (UGA), wird bei dieser Besta ttungsart durchschnittlich nur noch ca. 3% des ursprünglichen Flächenbedarfs einer Sargbestattung benötigt. Im Jahre 2002 machen Urnengemeinschaftsanlagen bereits einen Anteil von 37% aller Bestattungen aus. Folge dieser Entwicklung ist ein aktueller Friedhofsfläche nüberschuss von ca. 200 ha. Für 2025 wird ein Überschuss von 350 ha prognostiziert. Dies e Zahlen stehen einer steigenden Wohnungsnachfrage gegenüber und geben Anlass zur Konversion und Erarbeitung von Nachnutzungskonzepten.</p>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+              <div class="item active">
+              </div>
+              <div class="item">
+              </div>
+              <div class="item">
+              </div>
+          </div>
+      </div>
 
-              <p>Die Problematik des Flächenüberschusses sind teilweise zusammenhangslose Grabanlagen und ein kostenintensiver Pflegebedarf für die Betreiber. Für mehrere kleine Friedhöfe entlang der Hermannstraße im Bezirk Neukölln wurde 2015 das Integrierte Friedhofsentwicklungskonzept (IFEK) eratbeitet, welches auf die Ergebnisse des FEP zurückgreift. Der Ausstellungsteil - <strong>DICHTE</strong> Friedhöfe - befasst sich mit diesen Flächen, die teilweise zur Konversion anstehen. In einem Semesterprojekt haben sich 18 Studierende aus den Fachdisziplinen Stadtplanung, Archite ktur und Landschaftsplanung der Universität Kassel mit den Planungen des IFEK auseinand ergesetzt und eigene städtebauliche Entwürfe erstellt. Hierbei wurden durch die Gruppen verschiedene Dichtemodelle auf den Flächen getestet. Ein weiterer wichtiger Teil der Bearbeitung war die Analyse und das Einarbeiten der Elemente der ehemalig en Friedhofsnutzung. Das Ergebnis ist eine Auswahl von vier Projekten, in denen die Stu dierenden sehr unterschiedliche Entwürfe vertieft haben. Am Ende der Ausstellung stehen koknrete Beispiele für eine Umsetzung der Resultate aus den Teilen Fragen und Modelle.</p>
+      <!-- Remeber to put all the content you want on top of the slider below the slider code -->
+
+      <div>
+        <div class="title">
+          <h1></h1>
+        </div>
+           <button data-toggle="collapse" data-target="#demo" type="button" class="btn btn-default"><h4><strong>Friedhöfe.</strong></h4></button>
+
+        <div class="site-wrapper" id="wrapperhome">
+          <div class="site-wrapper-inner">
+            <div class="cover-container">
+              <div id="demo" class="collapse">
+                <div class="inner cover text-left">
+                  <div class="text">
+                    <p>Ein Kernproblem der Wohnungsfrage in Großstädten ist die Mobilisierung von Grundstücken in zentralen Lagen. In Berlin verfolgt man u.a. die Strategie, nicht mehr benötigte Friedhöfe in Flächen für den Wohnungsbau umzuwandeln. In diesem Rahmen wurde bereits 2006 ein Friedhofsentwicklungsplan (FEP) von der Stadt Berlin aufgestellt. Betrachtet werden darin ca. 1176 ha Friedhofsfläche, die sich auf 224 Friedhöfe verteilen. Historisch betrachtet ist die Friedhofslandschaft in Berlin einzigartig. Durch das rasche Wachstum der Stadt und den damit verbundenen Eingemeindungen, kamen immer wieder kleinere Friedhofsflächen zum Stadtgebiet hinzu.</p> 
+
+                    <p>Kerninhalt und Ziel des FEP ist eine auf dem Bestattungsverhalten basierende Erfassung derzeitig und langfristig nicht mehr genutzter Friedhofsflächen. Ergebnis der Untersuchungen ist eine deutliche Veränderung in Zahl und Art der Bestattungen. Von 1970 bis 2003 ist in Berlin die Zahl der Sterbefälle um ca. 40% gesunken. Aufgrund der Entwicklung von der klassischen Erdbestattung, hinzu Urnengemeinschaftsanlagen (UGA), wird bei dieser Besta ttungsart durchschnittlich nur noch ca. 3% des ursprünglichen Flächenbedarfs einer Sargbestattung benötigt. Im Jahre 2002 machen Urnengemeinschaftsanlagen bereits einen Anteil von 37% aller Bestattungen aus. Folge dieser Entwicklung ist ein aktueller Friedhofsfläche nüberschuss von ca. 200 ha. Für 2025 wird ein Überschuss von 350 ha prognostiziert. Dies e Zahlen stehen einer steigenden Wohnungsnachfrage gegenüber und geben Anlass zur Konversion und Erarbeitung von Nachnutzungskonzepten.</p>
+
+                    <p>Die Problematik des Flächenüberschusses sind teilweise zusammenhangslose Grabanlagen und ein kostenintensiver Pflegebedarf für die Betreiber. Für mehrere kleine Friedhöfe entlang der Hermannstraße im Bezirk Neukölln wurde 2015 das Integrierte Friedhofsentwicklungskonzept (IFEK) eratbeitet, welches auf die Ergebnisse des FEP zurückgreift. Der Ausstellungsteil - <strong>DICHTE</strong> Friedhöfe - befasst sich mit diesen Flächen, die teilweise zur Konversion anstehen. In einem Semesterprojekt haben sich 18 Studierende aus den Fachdisziplinen Stadtplanung, Archite ktur und Landschaftsplanung der Universität Kassel mit den Planungen des IFEK auseinand ergesetzt und eigene städtebauliche Entwürfe erstellt. Hierbei wurden durch die Gruppen verschiedene Dichtemodelle auf den Flächen getestet. Ein weiterer wichtiger Teil der Bearbeitung war die Analyse und das Einarbeiten der Elemente der ehemalig en Friedhofsnutzung. Das Ergebnis ist eine Auswahl von vier Projekten, in denen die Stu dierenden sehr unterschiedliche Entwürfe vertieft haben. Am Ende der Ausstellung stehen koknrete Beispiele für eine Umsetzung der Resultate aus den Teilen Fragen und Modelle.</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        
         </div>
       </div>
-    </div>
 
     <!-- Footer -->
     <div class="mastfoot">
