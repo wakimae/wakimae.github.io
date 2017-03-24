@@ -168,3 +168,7 @@ active:hover {
   height: auto;
   padding: 5px;
 }
+
+.panel-group {
+  margin-top: 65px;
+}
