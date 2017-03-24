@@ -162,3 +162,9 @@ active:hover {
 .text {
   background-color: #fff;
 }
+
+.img-responsive {
+  max-width: 90%;
+  height: auto;
+  padding: 5px;
+}
