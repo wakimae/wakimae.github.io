@@ -172,3 +172,7 @@ active:hover {
 .panel-group {
   margin-top: 65px;
 }
+
+.thumbnail {
+  width: 100%;
+}
