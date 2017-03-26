@@ -3,11 +3,6 @@
   background-size: contain;
 }
 
-#logo {
-  width: 100%;
-  height: auto;
-}
-
 a svg:hover {
   color: #c7105c;
 }
