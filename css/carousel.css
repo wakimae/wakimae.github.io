@@ -160,6 +160,7 @@ active:hover {
 .text {
   background-color: #fff;
   margin-top: 50px;
+  padding: 12px;
 }
 
 .img-responsive {
