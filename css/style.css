@@ -3,7 +3,7 @@
  */
 
 html, body {
-  background-image: url(../img/dot.svg);
+  background-image: url(../img/gemischt/dot.svg);
   background-repeat: repeat;
   height: 100%;
 }
@@ -52,7 +52,7 @@ p {
 
 /* Padding for spacing */
 .inner {
-  padding: 30px;
+  padding: 22px;
 }
 
 
@@ -152,12 +152,16 @@ active:hover {
   }
 }
 
+/*
+
 @media (min-width: 992px) {
   .masthead,
   .cover-container {
     width: 700px;
   }
 }
+
+*/
 
 .text {
   background-color: #fff;
@@ -175,5 +179,20 @@ active:hover {
 }
 
 .thumbnail {
-  width: 100%;
+  width: 180px;
+  height: 100%;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+  color: #c7105c;
+  background-color: transparent;
+}
+
+.thumbnail .caption {
+  padding: 1px;
+  color: #333;
+}
+
+.caption {
+  height: 22px;
 }
