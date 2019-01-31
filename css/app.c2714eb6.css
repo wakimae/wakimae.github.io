@@ -1,4 +1,4 @@
-h1{font-size:1.75rem!important}.wrap{max-width:85vw;margin:2vh auto}img{max-width:100%;max-height:75vh}textarea,textarea-autosize{resize:none!important;border-style:none;resize:both;overflow:auto;background-color:#141210;color:#6c757d;outline:none;width:100%;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;text-align:justify;letter-spacing:-.05em;line-height:1.3!important}::selection{background:#dffff7;color:#fff}.darkgrey{color:#514d4a}
+h1{font-size:1.75rem!important}.wrap{max-width:85vw;margin:2vh auto}img{max-width:100%;max-height:75vh}textarea,textarea-autosize{resize:none!important;border-style:none;resize:both;overflow:auto;background-color:#141210;color:#6c757d;outline:none;width:100%;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;text-align:justify;letter-spacing:-.05em;line-height:1.3!important}::selection{background:#dffff7;color:#fff}.darkgrey{color:#514d4a}.wrapper{min-height:calc(100vh - 160px)!important;-webkit-box-sizing:border-box;box-sizing:border-box}.wrapper2{height:80px}
 
 /*!
  * Bootstrap v4.2.1 (https://getbootstrap.com/)
